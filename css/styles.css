@@ -1,6 +1,8 @@
 body {
   background-color: white;
   font-family: "Quicksand", sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 img {
@@ -36,22 +38,10 @@ li {
   justify-content: center;
 }
 
-.illustration {
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-content: space-between;
-  margin: 0;
-  padding: 25px;
-}
-
 .print-work {
-  width: 100%;
   display: flex;
-  justify-content: center;
-  align-content: space-between;
-  margin: 0;
-  padding: 25px;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .print-work-1 {
@@ -71,11 +61,17 @@ li {
 }
 
 .print-work-3 {
-  background-image: url("https://i.ibb.co/s5fp9Cj/Screen-Shot-2020-07-22-at-7-09-55-PM.png");
+  background-image: url("https://i.ibb.co/FH2MsTY/06.png");
   background-size: cover;
   width: 250px;
   height: 250px;
   padding: 25px;
+}
+
+.illustration {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 .illustration-1 {
@@ -106,11 +102,15 @@ li {
   background-color: white;
   font-weight: bold;
   font-size: 18px;
-  margin: 50px auto;
   width: 300px;
   text-align: center;
-  padding: 10px;
+  padding: 15px;
   border: 2px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin: 50px auto;
 }
 
 footer {
@@ -118,32 +118,38 @@ footer {
   color: black;
   height: 100%;
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .footer-links {
-  padding: 20px 0px 0px 30px;
+  display: flex;
+  align-items: center;
 }
 
 .instagram {
   background-image: url("https://i.ibb.co/tHHQRHp/instagram.png");
   background-size: cover;
   background-position: center center;
-  width: 37px;
+  width: 28px;
+  height: 28px;
 }
 
 .twitter {
   background-image: url("https://i.ibb.co/7tPgFGx/twitter-1.png");
   background-size: cover;
   background-position: center center;
-  width: 37px;
+  width: 28px;
+  height: 28px;
 }
 
 .email {
   background-image: url("https://i.ibb.co/QDVPPBh/mail.png");
   background-size: cover;
   background-position: center center;
-  width: 37px;
+  width: 28px;
+  height: 28px;
 }
 
 footer ul {
@@ -162,8 +168,7 @@ footer li {
 
 .copyright li {
   font-size: 10px;
-  font-weight: normal;
-  margin: 0px 30px;
+  font-weight: bold;
 }
 
 @media (min-width: 550px) {
