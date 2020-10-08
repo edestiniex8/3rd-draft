@@ -1,0 +1,170 @@
+body {
+  background-color: white;
+  font-family: "Quicksand", sans-serif;
+}
+
+img {
+  height: 100px;
+  padding-left: 5px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0;
+  padding: 25px;
+}
+
+li {
+  display: inline-block;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px;
+  position: relative;
+  z-index: 1;
+}
+
+.xl-photo {
+  background-image: url("https://i.ibb.co/CtXn2kT/Feminism-Is-The-Future.png");
+  width: 100%;
+  height: 750px;
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.illustration {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  margin: 0;
+  padding: 25px;
+}
+
+.print-work {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: space-between;
+  margin: 0;
+  padding: 25px;
+}
+
+.print-work-1 {
+  background-image: url("https://i.ibb.co/nCjr09g/the-future-is-feminism-postcard.png");
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  padding: 25px;
+}
+
+.print-work-2 {
+  background-image: url("https://i.ibb.co/NCkRpkv/BELA-handbook.png");
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  padding: 25px;
+}
+
+.print-work-3 {
+  background-image: url("https://i.ibb.co/s5fp9Cj/Screen-Shot-2020-07-22-at-7-09-55-PM.png");
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  padding: 25px;
+}
+
+.illustration-1 {
+  background-image: url("https://i.ibb.co/S0vqHqh/Jurassic-Park-Woman-inherits-earth.png");
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  padding: 25px;
+}
+
+.illustration-2 {
+  background-image: url("https://i.ibb.co/R4S0NTk/cardi-b-blog.jpg");
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  padding: 25px;
+}
+
+.illustration-3 {
+  background-image: url("https://i.ibb.co/2KM4ZKV/Screen-Shot-2020-10-07-at-11-17-14-PM.png");
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  padding: 25px;
+}
+
+.button {
+  background-color: white;
+  font-weight: bold;
+  font-size: 18px;
+  margin: 50px auto;
+  width: 300px;
+  text-align: center;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+footer {
+  background-color: lightgray;
+  color: black;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-links {
+  padding: 20px 0px 0px 30px;
+}
+
+.instagram {
+  background-image: url("https://i.ibb.co/tHHQRHp/instagram.png");
+  background-size: cover;
+  background-position: center center;
+  width: 37px;
+}
+
+.twitter {
+  background-image: url("https://i.ibb.co/7tPgFGx/twitter-1.png");
+  background-size: cover;
+  background-position: center center;
+  width: 37px;
+}
+
+.email {
+  background-image: url("https://i.ibb.co/QDVPPBh/mail.png");
+  background-size: cover;
+  background-position: center center;
+  width: 37px;
+}
+
+footer ul {
+  list-style: none;
+  font-size: 15px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  padding: 0px;
+}
+
+footer li {
+  margin: 0px 10px;
+}
+
+.copyright li {
+  font-size: 10px;
+  font-weight: normal;
+  margin: 0px 30px;
+}
+
+@media (min-width: 550px) {
+}
